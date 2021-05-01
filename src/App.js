@@ -79,7 +79,7 @@ let addToCart = (product) => {
                     
                     cart.map((list) => {
                       return (                        
-                        <a class="list-group-item" href="#">
+                        <a class="list-group-item" href="index.html">
                           {list.name} - {list.price}
                           <span >
                           <button className="btn btn-sm btn-danger ml-4"  onClick={() => {
